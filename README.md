@@ -1,4 +1,8 @@
-osx-dev-setup
-=============
+OS X Development environment setup scripts
+==========================================
 
-OS X Dev Setup
+Install XCode and the command line tools first!
+
+```
+bash -c "$(curl -fsSkL https://raw.github.com/markosamuli/osx-dev-setup/master/install)"
+````
