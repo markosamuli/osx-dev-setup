@@ -1,0 +1,42 @@
+#!/usr/bin/env bash
+
+# 
+# XCode
+#
+if [ -z `which gcc` ]; then
+	echo "Error: XCode command line tools not installed!"
+	exit 1
+fi
+
+#
+# Homebrew
+# 
+if [ -z `which brew` ]; then
+	echo "Installing Homebrew..."
+    ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+    brew update
+fi
+
+#
+# Projects directory
+#
+if [ ! -e "$HOME/Projects" ]; then
+  echo "Create $HOME/Projects"
+    mkdir $HOME/Projects
+fi
+
+#
+# Install git
+#
+if [ -z `which git` ]; then
+  echo "Install git..."
+    brew install git
+fi
+  
+# 
+# Clone the dev setup tools
+# 
+echo "Clone the dev setup tools..."
+  cd $HOME/Projects
+  git clone https://github.com/markosamuli/osx-dev-setup.git
+  cd osx-dev-setup
