@@ -1,4 +1,11 @@
 recipes:
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::chrome
+- sprout-osx-apps::1password
+- sprout-osx-apps::charles_proxy
+- sprout-osx-apps::evernote
+- sprout-osx-apps::google_drive
+- sprout-osx-apps::node_js
+- sprout-osx-apps::sequelpro
+- markosamuli-osx-apps::tmux
 - markosamuli-osx-apps::virtualbox
