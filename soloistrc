@@ -1,0 +1,4 @@
+recipes:
+- sprout-osx-apps::dropbox
+- sprout-osx-apps::chrome
+- markosamuli-osx-apps::virtualbox

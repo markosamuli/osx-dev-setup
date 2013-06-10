@@ -1,0 +1,69 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    dmg (1.1.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: osx
+  ref: master
+  sha: 7771571dd39957e493aeae607b45ab630128661f
+  specs:
+    osx (0.1.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: pivotal_workstation
+  ref: master
+  sha: 7771571dd39957e493aeae607b45ab630128661f
+  specs:
+    pivotal_workstation (1.0.0)
+      dmg (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-apps
+  ref: master
+  sha: 7771571dd39957e493aeae607b45ab630128661f
+  specs:
+    sprout-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-base
+  ref: master
+  sha: 7771571dd39957e493aeae607b45ab630128661f
+  specs:
+    sprout-osx-base (0.1.0)
+
+GIT
+  remote: git://github.com/pivotal-sprout/sprout.git
+  path: sprout-osx-settings
+  ref: master
+  sha: 7771571dd39957e493aeae607b45ab630128661f
+  specs:
+    sprout-osx-settings (0.1.0)
+      osx (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+PATH
+  remote: site-cookbooks/markosamuli-osx-apps
+  specs:
+    markosamuli-osx-apps (0.1.0)
+      dmg (>= 0.0.0)
+      sprout-osx-base (>= 0.0.0)
+
+DEPENDENCIES
+  markosamuli-osx-apps (>= 0)
+  osx (>= 0)
+  pivotal_workstation (>= 0)
+  sprout-osx-apps (>= 0)
+  sprout-osx-base (>= 0)
+  sprout-osx-settings (>= 0)
+

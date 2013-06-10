@@ -1,0 +1,24 @@
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'markosamuli-osx-apps',
+  :path => 'site-cookbooks/markosamuli-osx-apps'
+
+cookbook 'sprout-osx-base',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'sprout-osx-base'
+
+cookbook 'pivotal_workstation',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'pivotal_workstation'
+
+cookbook 'sprout-osx-apps',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'sprout-osx-apps'
+
+cookbook 'sprout-osx-settings',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'sprout-osx-settings'
+
+cookbook 'osx',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'osx'

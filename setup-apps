@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+#
+# Bundler
+#
+if [ -z `which bundle` ]; then
+  echo "Install bundler..."
+  sudo gem install bundler
+fi
+
+echo "Install soloist & and other required gems..."
+	bundle
+  
+echo "Run soloist..."
+  bundle exec soloist
