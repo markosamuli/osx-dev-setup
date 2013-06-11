@@ -1,5 +1,6 @@
 recipes:
 - pivotal_workstation::create_var_chef_cache
+- pivotal_workstation::sshd_on
 - sprout-osx-base::bash_it
 - sprout-osx-base::homebrew
 - markosamuli-osx-apps::tmux
