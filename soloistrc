@@ -10,6 +10,7 @@ recipes:
 - sprout-osx-apps::evernote
 - sprout-osx-apps::google_drive
 - sprout-osx-apps::sequelpro
+- sprout-osx-apps::skype
 - pivotal_workstation::iterm2
 - pivotal_workstation::textmate2
 - pivotal_workstation::wget
