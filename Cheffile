@@ -6,6 +6,10 @@ cookbook 'markosamuli-osx-apps',
 cookbook 'sprout-osx-base',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'sprout-osx-base'
+  
+cookbook 'pivotal_workstation',
+  :git => 'git://github.com/pivotal-sprout/sprout.git',
+  :path => 'pivotal_workstation'  
 
 cookbook 'sprout-osx-apps',
   :git => 'git://github.com/pivotal-sprout/sprout.git',

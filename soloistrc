@@ -1,11 +1,17 @@
 recipes:
+- pivotal_workstation::create_var_chef_cache
+- sprout-osx-base::bash_it
+- sprout-osx-base::homebrew
+- markosamuli-osx-apps::tmux
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::chrome
 - sprout-osx-apps::1password
 - sprout-osx-apps::charles_proxy
 - sprout-osx-apps::evernote
 - sprout-osx-apps::google_drive
-- sprout-osx-apps::node_js
 - sprout-osx-apps::sequelpro
-- markosamuli-osx-apps::tmux
 - markosamuli-osx-apps::virtualbox
+node_attributes:
+  versions:
+    bash_it: 8d7a9cc1bb7d2a9008e77a5675cf69e8702ac132
+  workspace_directory: Projects

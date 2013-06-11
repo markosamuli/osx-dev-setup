@@ -14,8 +14,10 @@ fi
 if [ -z `which brew` ]; then
 	echo "Installing Homebrew..."
     ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
-    brew update
 fi
+
+echo "Update Homebrew..."
+  brew update
 
 #
 # Projects directory
