@@ -41,7 +41,7 @@ fi
 if [ ! -e "$HOME/Projects/osx-dev-setup" ]; then
   echo "Clone the dev setup tools..."
     cd $HOME/Projects
-    git clone https://github.com/markosamuli/osx-dev-setup.git
+    git clone git@github.com:markosamuli/osx-dev-setup.git
 fi
 
 # 
