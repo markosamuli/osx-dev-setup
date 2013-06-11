@@ -2,7 +2,7 @@ recipes:
 - pivotal_workstation::create_var_chef_cache
 - pivotal_workstation::sshd_on
 - sprout-osx-base::bash_it
-- sprout-osx-base::homebrew
+# - sprout-osx-base::homebrew
 - sprout-osx-apps::1password
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::chrome
