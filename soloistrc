@@ -11,9 +11,12 @@ recipes:
 - sprout-osx-apps::google_drive
 - sprout-osx-apps::sequelpro
 - pivotal_workstation::iterm2
+- pivotal_workstation::textmate2
+- pivotal_workstation::wget
 - markosamuli-osx-apps::virtualbox
-#- markosamuli-osx-apps::tmux
-#- sprout-osx-apps::ack
+- pivotal_workstation::sublime_text
+- markosamuli-osx-apps::tmux
+- sprout-osx-apps::ack
 node_attributes:
   versions:
     bash_it: 8d7a9cc1bb7d2a9008e77a5675cf69e8702ac132

@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-# 
-# Fix Applications directory permissions
-#
-sudo chown `whoami` /Applications
-
 #
 # Bundler
 #
@@ -14,7 +9,7 @@ if [ -z `which bundle` ]; then
 fi
 
 echo "Install soloist & and other required gems..."
-	bundle
+  bundle
   
 echo "Run soloist..."
   bundle exec soloist

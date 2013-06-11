@@ -44,6 +44,12 @@ if [ ! -e "$HOME/Projects/osx-dev-setup" ]; then
     git clone https://github.com/markosamuli/osx-dev-setup.git
 fi
 
+# 
+# Fix Applications directory permissions
+#
+echo "Fix Applications directory permissions..."
+sudo chown `whoami` /Applications
+
 #
 # Ready, print instructions
 #
