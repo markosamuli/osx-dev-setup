@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# 
+# Fix Applications directory permissions
+#
+sudo chown `whoami` /Applications
+
 #
 # Bundler
 #

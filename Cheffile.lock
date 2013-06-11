@@ -55,9 +55,12 @@ GIT
 PATH
   remote: site-cookbooks/markosamuli-osx-apps
   specs:
-    markosamuli-osx-apps (0.1.0)
+    markosamuli-osx-apps (0.1.1)
       dmg (>= 0.0.0)
+      osx (>= 0.0.0)
+      sprout-osx-apps (>= 0.0.0)
       sprout-osx-base (>= 0.0.0)
+      sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
   markosamuli-osx-apps (>= 0)
