@@ -53,9 +53,9 @@ GIT
       sprout-osx-base (>= 0.0.0)
 
 PATH
-  remote: site-cookbooks/markosamuli-osx-apps
+  remote: markosamuli_workstation
   specs:
-    markosamuli-osx-apps (0.1.1)
+    markosamuli_workstation (0.1.3)
       dmg (>= 0.0.0)
       osx (>= 0.0.0)
       sprout-osx-apps (>= 0.0.0)
@@ -63,7 +63,7 @@ PATH
       sprout-osx-settings (>= 0.0.0)
 
 DEPENDENCIES
-  markosamuli-osx-apps (>= 0)
+  markosamuli_workstation (>= 0)
   osx (>= 0)
   pivotal_workstation (>= 0)
   sprout-osx-apps (>= 0)

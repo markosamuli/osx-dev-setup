@@ -20,5 +20,5 @@ cookbook 'osx',
   :git => 'git://github.com/pivotal-sprout/sprout.git',
   :path => 'osx'
 
-cookbook 'markosamuli-osx-apps',
-  :path => 'site-cookbooks/markosamuli-osx-apps'
+cookbook 'markosamuli_workstation',
+  :path => 'markosamuli_workstation'
