@@ -27,6 +27,7 @@ recipes:
 - markosamuli_workstation::sublime_text
 - markosamuli_workstation::tmux
 - markosamuli_workstation::dotfiles
+- markosamuli_workstation::rvm
 node_attributes:
   bash_it:
     enabled_plugins:
@@ -44,6 +45,4 @@ node_attributes:
         - git
         - tmux
         - rake
-  versions:
-    bash_it: 8d7a9cc1bb7d2a9008e77a5675cf69e8702ac132
   workspace_directory: Projects
