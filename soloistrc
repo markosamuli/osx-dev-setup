@@ -28,6 +28,7 @@ recipes:
 - markosamuli_workstation::tmux
 - markosamuli_workstation::dotfiles
 - markosamuli_workstation::rvm
+- markosamuli_workstation::synergy
 node_attributes:
   bash_it:
     enabled_plugins:
