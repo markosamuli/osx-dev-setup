@@ -20,6 +20,7 @@ recipes:
 - sprout-osx-apps::sourcetree
 - sprout-osx-apps::vlc
 - markosamuli_workstation::iterm2
+- markosamuli_workstation::transmit
 - markosamuli_workstation::textmate2
 - markosamuli_workstation::wget
 - markosamuli_workstation::virtualbox
