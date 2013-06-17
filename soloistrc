@@ -1,6 +1,7 @@
 recipes:
 - markosamuli_workstation::create_var_chef_cache
 - markosamuli_workstation::sshd_on
+- markosamuli_workstation::fix_applications_permissions
 - sprout-osx-base::homebrew
 - sprout-osx-base::bash_it
 - sprout-osx-base::workspace_directory
