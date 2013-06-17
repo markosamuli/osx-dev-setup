@@ -19,6 +19,7 @@ recipes:
 - sprout-osx-apps::node_js
 - sprout-osx-apps::sourcetree
 - sprout-osx-apps::vlc
+- sprout-osx-apps::libreoffice
 - markosamuli_workstation::iterm2
 - markosamuli_workstation::transmit
 - markosamuli_workstation::textmate2
