@@ -1,0 +1,15 @@
+#
+# <%= node['sprout']['home'] %>/<%= node["workspace_directory"] %>/httpd-vhosts.conf
+#
+
+NameVirtualHost *:80
+
+<VirtualHost *:80 _default_:80>
+  DocumentRoot "<%= node['sprout']['home'] %>/<%= node["workspace_directory"] %>"
+  ServerName localhost
+  <Directory "/Projects/">
+    AllowOverride All
+    Allow from localhost
+    Deny from all
+  </Directory>
+</VirtualHost>

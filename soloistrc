@@ -31,6 +31,7 @@ recipes:
 - markosamuli_workstation::dotfiles
 - markosamuli_workstation::rvm
 - markosamuli_workstation::synergy
+- markosamuli_workstation::apache2_config
 node_attributes:
   bash_it:
     enabled_plugins:
