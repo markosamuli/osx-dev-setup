@@ -2,12 +2,12 @@
 # <%= node['sprout']['home'] %>/<%= node["workspace_directory"] %>/httpd-vhosts.conf
 #
 
-NameVirtualHost *:80
+NameVirtualHost *:<%= node["apache2_settings"]["server_port"] %>
 
-<VirtualHost *:80 _default_:80>
-  DocumentRoot "<%= node['sprout']['home'] %>/<%= node["workspace_directory"] %>"
-  ServerName localhost
-  <Directory "/Projects/">
+<VirtualHost *:<%= node["apache2_settings"]["server_port"] %> _default_:<%= node["apache2_settings"]["server_port"] %>>
+  DocumentRoot "<%= node["apache2_settings"]["server_document_root"] %>"
+  ServerName <%= node["apache2_settings"]["server_name"] %>
+  <Directory "<%= node['sprout']['home'] %>/<%= node["workspace_directory"] %>">
     AllowOverride All
     Allow from localhost
     Deny from all
