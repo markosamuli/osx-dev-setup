@@ -20,6 +20,7 @@ recipes:
 - sprout-osx-apps::sourcetree
 - sprout-osx-apps::vlc
 - sprout-osx-apps::libreoffice
+- markosamuli_workstation::bash_completion
 - markosamuli_workstation::iterm2
 - markosamuli_workstation::transmit
 - markosamuli_workstation::textmate2
@@ -36,6 +37,7 @@ recipes:
 - markosamuli_workstation::php54
 - markosamuli_workstation::mysql
 - markosamuli_workstation::mysql_workbench
+- markosamuli_workstation::git_wtf
 node_attributes:
   bash_it:
     enabled_plugins:
