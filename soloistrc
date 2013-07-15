@@ -45,6 +45,9 @@ node_attributes:
         - tmux
         - tmuxinator
         - vagrant
+        - git
+        - extract
+        - osx
       aliases:
         - general
       completion:
@@ -52,4 +55,7 @@ node_attributes:
         - git
         - tmux
         - rake
+        - brew
+        - gem
+        - ssh
   workspace_directory: Projects
