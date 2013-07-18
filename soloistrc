@@ -38,6 +38,7 @@ recipes:
 - markosamuli_workstation::mysql
 - markosamuli_workstation::mysql_workbench
 - markosamuli_workstation::git_wtf
+- markosamuli_workstation::gpg
 node_attributes:
   bash_it:
     enabled_plugins:
@@ -51,6 +52,7 @@ node_attributes:
         - git
         - extract
         - osx
+        - nginx
       aliases:
         - general
       completion:
