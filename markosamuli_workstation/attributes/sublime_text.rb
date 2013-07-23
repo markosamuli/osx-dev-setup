@@ -12,5 +12,6 @@ node.default["sublime_text_packages"] = [
 	{"name" => "PHP-Twig", "source" => "https://github.com/Anomareh/PHP-Twig.tmbundle"},
 	{"name" => "SmartMarkdown", "source" => "https://github.com/demon386/SmartMarkdown"},
 	{"name" => "Sublimerge", "source" => "https://github.com/borysf/Sublimerge"},
-  {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"}
+  {"name" => "SublimeLinter", "source" => "https://github.com/SublimeLinter/SublimeLinter"},
+  {"name" => "GitGutter", "source" => "https://github.com/jisaacks/GitGutter"}
 ]
