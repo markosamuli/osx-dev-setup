@@ -40,6 +40,7 @@ recipes:
 - markosamuli_workstation::mysql_workbench
 - markosamuli_workstation::git_wtf
 - markosamuli_workstation::gpg
+- markosamuli_workstation::gnu_utils
 node_attributes:
   bash_it:
     enabled_plugins:
