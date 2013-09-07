@@ -3,10 +3,10 @@ include_recipe "markosamuli_workstation::ssl_certificate"
 
 run_unless_marker_file_exists("nginx") do
 
-  execute "uninstall nginx" do
-    only_if "brew list | grep nginx"
-    command "sudo brew remove nginx"
-  end
+  # execute "uninstall nginx" do
+  #   only_if "brew list | grep nginx"
+  #   command "brew remove nginx"
+  # end
 
   brew "nginx"
 

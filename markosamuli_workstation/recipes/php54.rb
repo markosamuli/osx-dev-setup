@@ -1,11 +1,13 @@
 include_recipe "sprout-osx-base::homebrew"
 
 execute "tap the josegonzalez repo" do
+	user node['current_user']
     command "brew tap josegonzalez/php"
     not_if { system("brew tap | grep 'josegonzalez' > /dev/null 2>&1") }
 end
 
 execute "tap the dupes repo" do
+	user node['current_user']
     command "brew tap homebrew/dupes"
     not_if { system("brew tap | grep 'dupes' > /dev/null 2>&1") }
 end

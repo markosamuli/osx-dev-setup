@@ -5,6 +5,21 @@ recipes:
 - sprout-osx-base::homebrew
 - sprout-osx-base::bash_it
 - sprout-osx-base::workspace_directory
+- markosamuli_workstation::git
+- markosamuli_workstation::bash_completion
+- markosamuli_workstation::wget
+- markosamuli_workstation::vagrant
+- markosamuli_workstation::tmux
+- markosamuli_workstation::dotfiles
+- markosamuli_workstation::rvm
+- markosamuli_workstation::apache2
+- markosamuli_workstation::nginx
+- markosamuli_workstation::php54
+- markosamuli_workstation::mysql
+- markosamuli_workstation::git_wtf
+- markosamuli_workstation::gpg
+- markosamuli_workstation::gnu_utils
+- sprout-osx-apps::ack
 - sprout-osx-apps::1password
 - sprout-osx-apps::dropbox
 - sprout-osx-apps::chrome
@@ -13,7 +28,6 @@ recipes:
 - sprout-osx-apps::google_drive
 - sprout-osx-apps::sequelpro
 - sprout-osx-apps::skype
-- sprout-osx-apps::ack
 - sprout-osx-apps::firefox
 - sprout-osx-apps::google_drive
 - sprout-osx-apps::node_js
@@ -21,26 +35,13 @@ recipes:
 - sprout-osx-apps::vlc
 - sprout-osx-apps::libreoffice
 - sprout-osx-apps::kaleidoscope2
-- markosamuli_workstation::bash_completion
+- markosamuli_workstation::synergy
+- markosamuli_workstation::mysql_workbench
 - markosamuli_workstation::iterm2
 - markosamuli_workstation::transmit
 - markosamuli_workstation::textmate2
-- markosamuli_workstation::wget
 - markosamuli_workstation::virtualbox
-- markosamuli_workstation::vagrant
 - markosamuli_workstation::sublime_text
-- markosamuli_workstation::tmux
-- markosamuli_workstation::dotfiles
-- markosamuli_workstation::rvm
-- markosamuli_workstation::synergy
-- markosamuli_workstation::apache2
-- markosamuli_workstation::nginx
-- markosamuli_workstation::php54
-- markosamuli_workstation::mysql
-- markosamuli_workstation::mysql_workbench
-- markosamuli_workstation::git_wtf
-- markosamuli_workstation::gpg
-- markosamuli_workstation::gnu_utils
 node_attributes:
   bash_it:
     enabled_plugins:
