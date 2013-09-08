@@ -15,7 +15,7 @@ recipes:
 - markosamuli_workstation::apache2
 - markosamuli_workstation::nginx
 - markosamuli_workstation::php54
-- markosamuli_workstation::mysql
+- markosamuli_workstation::mysql55
 - markosamuli_workstation::git_wtf
 - markosamuli_workstation::gpg
 - markosamuli_workstation::gnu_utils
