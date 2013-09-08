@@ -68,6 +68,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chef
   plist
   soloist

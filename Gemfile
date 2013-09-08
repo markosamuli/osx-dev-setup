@@ -2,4 +2,5 @@ source 'https://rubygems.org'
 
 gem 'soloist'
 gem 'plist'
-gem 'chef' #, '11.4.0' # Workaround for https://github.com/pivotal-sprout/sprout/issues/13, remove once that is fixed
+# gem "chef", "~> 11.6.0"
+# gem 'chef', '11.4.0' # Workaround for https://github.com/pivotal-sprout/sprout/issues/13, remove once that is fixed
