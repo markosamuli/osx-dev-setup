@@ -42,6 +42,7 @@ recipes:
 - markosamuli_workstation::sublime_text
 node_attributes:
   bash_it:
+    repository: git@github.com:markosamuli/bash-it.git
     enabled_plugins:
       plugins:
         - rvm
